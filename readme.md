@@ -11,7 +11,7 @@ When finished building, please go to http://localhost:8000
 
 # Features
 
-This is a simple forecast app using AngularJS 1.7.x, the OpenWeather API, the Google Places Autcomplete APU, and the Unsplash API for the city photos. The default location is set to 60661,but the browser will request permission to grab your current location. From there, you can search for your favorite city, getting the current weather and a five day forecast, plus show you a photo related to that city. 
+This is a simple forecast app using AngularJS 1.7.x, the OpenWeather API, the Google Places Autocomplete, and the Unsplash API for the city photos. The default location is set to 60661,but the browser will request permission to grab your current location. From there, you can search for your favorite city, getting the current weather and a five day forecast, plus show you a photo related to that city. 
 
 # Testing
 
