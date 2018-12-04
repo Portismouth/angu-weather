@@ -17,11 +17,11 @@ This is a simple forecast app using AngularJS 1.7.x, the OpenWeather API, the Go
 
 This was, admittedly, a new topic for me so there was a bit of a learning curve. I was able to set some simple unit tests for the the current-weather component and a simple e2e test for the search bar and some other basic features. I wasn't able to figure out how to test that API results were returning the correct result, unfortunately. I outline instructions for testing below.
 
-#Known Issues
+# Known Issues
 
 Queries to the weather API return an error if you search for an obscure city - and the photos don't always perfectly match up - Portland, OR vs Portland, ME for example.
 
-#Running Tests
+# Running Tests
 
 ## End-2-End Testing (Protractor)
 
