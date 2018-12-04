@@ -1,0 +1,11 @@
+<div class="col">
+  <div ng-if="$ctrl.forecast.error" class="row no-gutters">
+    <div class="day">{{ $ctrl.forecast.error }}</div>
+  </div>
+  <div ng-if="$ctrl.forecast.dt" class="row no-gutters">
+    <div class="day">{{ $ctrl.forecast.dt }}</div>
+  </div>
+  <div ng-if="$ctrl.forecast.temp || $ctrl.forecast.weather" class="row no-gutters">
+    <div class="forecast">{{ $ctrl.forecast.temp }}&#176; / {{ $ctrl.forecast.weather }}</div>
+  </div>
+</div>

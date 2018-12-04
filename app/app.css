@@ -1,0 +1,68 @@
+.container-fluid {
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1519501025264-65ba15a82390?ixlib=rb-0.3.5&s=17d117d25b1fb536f3e79775aa516b11');
+  background-size: cover;
+  background-position: center;
+}
+.current {
+  background-color: rgb(0, 0, 0, 0.5);
+  bottom: 0;
+  color: white;
+  padding: 10px;
+  position: fixed;
+}
+.city-wrapper {
+  background-color: rgb(0, 0, 0, 0.5);
+  padding: 10px;
+}
+#currentTemp {
+  font-size: 10vmax;
+  margin: 0;
+}
+.hi-low {
+  display: inline-block;
+  font-size: 2vmax;
+}
+.conditions {
+  font-size: 2.25vmax;
+}
+
+.forecast-row {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 40%;
+  transform: translateY(-50%);
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.day {
+  color: white;
+  font-size: 2.15vmax;
+  font-weight: bold;
+}
+
+.forecast {
+  color: white;
+  font-size: 1.75vmax;
+}
+
+.color-white {
+  border-top: 1px solid white;
+  margin-top: 5px;
+}
+
+.title {
+  color: white;
+  font-size: 2vmax;
+}
+
+.city-name {
+  color: white;
+  font-size: 2.5vmax;
+}
+
+.time {
+  color: white;
+  font-size: 1.25vmax;
+}
