@@ -1,4 +1,4 @@
-#Welcome to the AnguWeather!
+# Welcome to the AnguWeather!
 
 To get started clone this repository and simply run
 
@@ -9,11 +9,11 @@ I've configured the package.json file to run npm install on this command. If you
 
 When finished building, please go to http://localhost:8000
 
-#Features
+# Features
 
 This is a simple forecast app using AngularJS 1.7.x, the OpenWeather API, the Google Places Autcomplete APU, and the Unsplash API for the city photos. The default location is set to 60661,but the browser will request permission to grab your current location. From there, you can search for your favorite city, getting the current weather and a five day forecast, plus show you a photo related to that city. 
 
-#Testing
+# Testing
 
 This was, admittedly, a new topic for me so there was a bit of a learning curve. I was able to set some simple unit tests for the the current-weather component and a simple e2e test for the search bar and some other basic features. I wasn't able to figure out how to test that API results were returning the correct result, unfortunately. I outline instructions for testing below.
 
